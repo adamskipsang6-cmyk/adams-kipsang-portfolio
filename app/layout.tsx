@@ -30,6 +30,10 @@ export const metadata: Metadata = {
     canonical: "/",
   },
 
+  verification: {
+    google: "TibHAearit2zCd_EffogRPsZtHs7l-lwkTj-QAtYWsY",
+  },
+
   keywords: [
     "Adams Kipsang",
     "Web Developer Kenya",
