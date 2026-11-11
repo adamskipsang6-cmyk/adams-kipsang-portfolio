@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://YOUR-PORTFOLIO-DOMAIN.vercel.app"),
+  metadataBase: new URL("https://adams-kipsang-portfolio.vercel.app"),
 
   title: {
     default: "Adams Kipsang | Web Developer in Kenya",
@@ -25,6 +25,10 @@ export const metadata: Metadata = {
     "Adams Kipsang is a web developer based in Kenya, creating modern, responsive restaurant websites, business websites and digital experiences for clients in Kenya and worldwide.",
 
   applicationName: "Adams Kipsang Portfolio",
+
+  alternates: {
+    canonical: "/",
+  },
 
   keywords: [
     "Adams Kipsang",
@@ -45,6 +49,7 @@ export const metadata: Metadata = {
     title: "Adams Kipsang | Web Developer in Kenya",
     description:
       "Modern, responsive websites for restaurants, businesses and individuals in Kenya and worldwide.",
+    url: "/",
     siteName: "Adams Kipsang",
     locale: "en_KE",
     type: "website",
